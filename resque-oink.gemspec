@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Josh Nichols"]
   s.date = "2012-06-22"
-  s.description = "TODO: longer description of your gem"
+  s.description = "Resque extension to identify jobs which significantly increase VM heap size using oink"
   s.email = "josh@technicalpickles.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -27,14 +27,15 @@ Gem::Specification.new do |s|
     "VERSION",
     "lib/resque-oink.rb",
     "lib/resque/plugins/oink.rb",
+    "resque-oink.gemspec",
     "spec/resque-oink_spec.rb",
     "spec/spec_helper.rb"
   ]
-  s.homepage = "http://github.com/technicalpickles/resque-oink"
+  s.homepage = "http://github.com/railsmachine/resque-oink"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.15"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "Resque extension for memory debugging"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
