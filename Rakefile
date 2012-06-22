@@ -15,10 +15,10 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "resque-oink"
-  gem.homepage = "http://github.com/technicalpickles/resque-oink"
+  gem.homepage = "http://github.com/railsmachine/resque-oink"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Resque extension for memory debugging}
+  gem.description = %Q{Resque extension to identify jobs which significantly increase VM heap size using oink}
   gem.email = "josh@technicalpickles.com"
   gem.authors = ["Josh Nichols"]
   # dependencies defined in Gemfile
