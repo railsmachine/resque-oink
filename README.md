@@ -27,6 +27,5 @@ Now, you can extend your job with `Resque::Plugins::Oink`. Following the [resque
 Copyright
 =========
 
-Copyright (c) 2012 Rails Machine. See LICENSE.txt for
-further details.
+Unless otherwise specified, all content copyright &copy; 2014, [Rails Machine, LLC](http://railsmachine.com)
 
